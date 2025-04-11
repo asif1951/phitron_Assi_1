@@ -1,0 +1,267 @@
+
+* {
+    box-sizing: border-box;
+  }
+
+  #logo span {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .section-1 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .portfolio-website button,
+  .expertise button {
+    margin: 5px;
+  }
+
+  .expertise h2 {
+    margin-top: 20px;
+  }
+
+  .contact-div input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .footerContainer {
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  .socialIcons a {
+    margin: 0 10px;
+    font-size: 1.5rem;
+  }
+
+
+/* Navbar Start */
+#navbar{
+    background: #f9f9f9;
+}
+#logo{
+    font-size: 36px;
+    font-weight: 550;
+    color: black;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 5px;
+}
+#logo span{
+    color: #ffa500;
+}
+.navbar-toggler span{
+    color: #ffa500;
+}
+.navbar-nav{
+    margin-left: 20px;
+}
+.nav-item .nav-link{
+    font-size: 16px;
+    font-weight: 550;
+    color: black;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.5s ease;
+}
+.nav-item .nav-link:hover{
+    background: #ffa500;
+    color: white;
+}
+#navbar form button{
+    background: orange;
+    color: white;
+    border: none;
+}
+/* Navbar End */
+
+/*Download bottom*/
+
+.download-btn{
+    background-color: DodgerBlue;
+    color: white;
+    padding:5px 10px;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius:5px;
+}
+.download-btn:hover {
+    background-color: RoyalBlue;
+  }
+
+/*About start*/
+.about-person{
+    height: 400px;
+    width: 600px;
+}
+.photo{
+    height: 400px;
+    width: 600px;
+    padding-left: 200px;
+}
+/*About end*/
+/*Portfolio Start*/
+.portfolio-slider{
+    height: 400px;
+    width: 400px;
+    text-align: center;
+}
+
+.portfolio-website{
+    height: 250px;
+    width: 400px;
+    padding-left: 30px;
+}
+
+.portfolio-slider-1{
+    height: 400px;
+    width: 400px;
+    text-align: center;
+}
+
+.portfolio-website-1{
+    height: 250px;
+    width: 400px;
+    padding-left: 30px;
+}
+
+
+.html{
+    background-color: black;
+    border-radius: 4px;
+    color: #f9f9f9;
+}
+.css{
+    background-color: black;
+    border-radius: 4px;
+    color: #f9f9f9;
+}
+.react{
+    background-color: black;
+    border-radius: 4px;
+    color: #f9f9f9;
+}
+.node{
+    background-color: black;
+    border-radius: 4px;
+    color: #f9f9f9;
+}
+.firebase{
+    background-color: black;
+    border-radius: 4px;
+    color: #f9f9f9;
+}
+.sql{
+    background-color: black;
+    border-radius: 4px;
+    color: #f9f9f9;
+}
+.aws{
+    background-color: black;
+    border-radius: 4px;
+    color: #f9f9f9;
+}
+.next{
+    background-color: black;
+    border-radius: 4px;
+    color: #f9f9f9;
+}
+.redux{
+    background-color: black;
+    border-radius: 4px;
+    color: #f9f9f9;
+}
+.typescript{
+    background-color: black;
+    border-radius: 4px;
+    color: #f9f9f9;
+}
+
+
+.cpp{
+    background-color: black;
+    border-radius: 4px;
+    color: #f9f9f9;
+}
+.python{
+    background-color: black;
+    border-radius: 4px;
+    color: #f9f9f9;
+}
+.spring{
+    background-color: black;
+    border-radius: 4px;
+    color: #f9f9f9;
+}
+.networking{
+    background-color: black;
+    border-radius: 4px;
+    color: #f9f9f9;
+}
+.expertise-2{
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+/*Contact*/
+.contact-div{
+    text-align: center;
+}
+
+/*footer*/
+footer{
+    background-color: #111;
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 1.5em;
+    color: black;
+    opacity: 0,9;
+}
+/* Hover affect on social media icon */
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media (max-width: 700px){
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+}
+.footerBottom{
+    color: white;
+    text-align: center;
+}
